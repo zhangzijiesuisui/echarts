@@ -48,7 +48,7 @@
       {
         type: 'scatter3D',
         data: points,
-        // 我们颜色的渲染使用的是函数式,对每个点, 返回改点对应的rgb颜色值
+        // 我们颜色的渲染使用的是函数式,对每个点, 返回改点对应的rgb颜色
         color: ({data}) => {
           console.log(data)
           let [r, g, b] = data
